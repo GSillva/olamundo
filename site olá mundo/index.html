@@ -116,9 +116,30 @@ link
     <li>hreflang: língua</li>
     </ul>
     <a href="https://www.iana.org/assignments/media-types/media-types.xhtml" hreflang="en">atributo download com o nome do arquivo e type com o tipo de arquivo</a> <br>
+    
+    <h3>Imagem dinâmica</h3>
+    
     <picture>
         <source media="(max-width: 500px)" srcset="logo-2582748_1280.png">
-        <img src="Captura de Tela (20).png" height="750px" alt="CSS3">
+        <img src="download (1).png" height="750px" alt="CSS3">
     </picture>
+
+    <h3>Audio</h3>
+        <p><pre>
+            &lt;audio preload="metadata(informações do arquivo)/auto(carrega o audio completo)/none(carrega nada até o play" controls(aparece o play) autoplay(inicia quando abre o site) loop(repete)>
+                &lt;source src="arquivo" type=""> 
+                &lt;source src="arquivo" type="">
+                &lt;source src="arquivo" type="">
+            &lt;audio>
+        </pre></p>
+
+    <h3>Vídeo</h3>
+         
+        <p><pre>
+            &lt;video width="largura" poster="capa do vídeo" controls autoplay>
+                &lt;source src="" type="">
+            &lt;/video>
+        </pre></p>
+        
 </body>
 </html>
